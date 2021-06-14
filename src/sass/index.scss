@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+$senja: #f17e3a;
+
 body {
   background-position: center;
   background-size: cover;
@@ -10,16 +13,18 @@ body {
   padding: 15px;
   background-color: transparent;
   margin-bottom: 20px;
-}
 
-.nav .stroke {
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-}
+  .stroke {
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+      1px 1px 0 #000;
+  }
 
-.nav h2 {
-  text-shadow: 0 0 0 rgba(0, 0, 0, 0), 0 0 0 rgba(0, 0, 0, 0), 0 0 0 rgba(0, 0, 0, 0), 0 0 0 rgba(0, 0, 0, 0);
-  font-family: "Lobster", cursive;
-  color: #f17e3a;
+  h2 {
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0), 0 0 0 rgba(0, 0, 0, 0),
+      0 0 0 rgba(0, 0, 0, 0), 0 0 0 rgba(0, 0, 0, 0);
+    font-family: "Lobster", cursive;
+    color: $senja;
+  }
 }
 
 .title {
@@ -32,12 +37,15 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-}
 
-.headRoot h1 span .stroke {
-  font-weight: 200px;
+  h1 {
+    span {
+      .stroke {
+        font-weight: 200px;
+      }
+    }
+  }
 }
-
 .colHeader {
   margin-top: 180px;
   padding: 50px;
@@ -45,11 +53,12 @@ body {
 
 .headText {
   font-size: 5rem;
-}
 
-.headText .stroke {
-  color: white;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  .stroke {
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+      1px 1px 0 #000;
+  }
 }
 
 .portofolioRoot {
@@ -60,4 +69,3 @@ body {
 .cardrow {
   padding: 15px;
 }
-/*# sourceMappingURL=index.css.map */
